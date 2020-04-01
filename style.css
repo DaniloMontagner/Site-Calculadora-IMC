@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(78, 78, 253, 0.918);
+    font: Normal 14pt Arial;
+}
+
+p#nome, #altura, #peso {
+    font: Normal 12pt Arial;
+    margin-top: 20px;
+    text-align: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    width: 500px;
+    background-color: rgb(202, 202, 202);
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.527);
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+input#txtcm, #txtnome, #txtpeso {
+    background-color: rgba(126, 126, 126, 0.733);
+    border: none;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.795);
+    text-align: center;
+}
+
+input#calcular {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.856);
+    width: 200px;
+    height: 50px;
+}
+
+input {
+    border-radius: 6px;
+}
+
+#calcular:hover {
+    background-color: violet;
+
+}
+
+
+

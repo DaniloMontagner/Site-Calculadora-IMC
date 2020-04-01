@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC (Indice de Massa Corporal)</h1>
+    </header>
+    <section>
+        <div>
+            <p style="text-align: center;"><strong>Coloque os Dados </strong></p>
+            <p id="nome"><strong>Qual é o seu nome?</strong><br> <input type="text" name="" id="txtnome"></p>
+            <p id="altura"><strong>Qual é a sua altura em centimetros?</strong><br> <input type="number" name="txtcm" id="txtcm" style="width: 150px;"></p>
+            <p id="peso"><strong>E qual é o seu peso?</strong><br> <input type="number" name="txtpeso" id="txtpeso"></p>
+            <p style="text-align: center;"><input type="button" value="Calcular" onclick="calcular()" id="calcular"></p>
+        </div>
+        <div id="res">   
+            <p style="text-align: center;">Seu resultado irá aparecer aqui</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Danilo Montagner</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
